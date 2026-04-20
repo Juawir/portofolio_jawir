@@ -33,7 +33,7 @@ return [
         'location'  => 'Sidoarjo, Jawa Timur',
         'university'=> 'Universitas Muhammadiyah Sidoarjo',
         'degree'    => 'S1 Teknik Informatika',
-        'photo'     => 'images/profile.png', // relative to public/
+        'photo'     => 'images/saya.jpeg', // relative to public/
 
         // Deskripsi tentang diri Anda (per bahasa)
         'about' => [
