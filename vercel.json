@@ -22,7 +22,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_KEY": "base64:H5LN+byWcLW9Zhhs2MQhcfo0sRzJ0v+x2yTWuZmM7Qw=",
         "APP_URL": "https://portofolio-jawir.vercel.app",
         "CACHE_STORE": "array",
