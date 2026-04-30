@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PortfolioController;
 
 Route::get('/', function () {
     return view('home');
@@ -17,3 +18,5 @@ Route::get('/pengalaman', function () {
 Route::get('/kontak', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/download-portfolio', [PortfolioController::class, 'downloadPortfolio'])->name('portfolio.download');

@@ -33,6 +33,25 @@
                 <a href="{{ route('contact') }}" class="btn btn-outline" data-i18n-html="hero.btn_contact">
                     <i class="fas fa-paper-plane"></i> Hubungi Saya
                 </a>
+                <a href="{{ route('portfolio.download') }}" class="btn btn-outline" id="btn-download-portfolio" target="_blank" data-i18n-html="hero.btn_portfolio">
+                    <i class="fas fa-file-pdf"></i> Unduh Portfolio
+                </a>
+                <script>
+                    // Update portfolio download link with current language
+                    document.addEventListener('DOMContentLoaded', function() {
+                        function updatePortfolioLink() {
+                            const lang = localStorage.getItem('JawirLang') || 'id';
+                            const btn = document.getElementById('btn-download-portfolio');
+                            if (btn) {
+                                btn.href = "{{ route('portfolio.download') }}?lang=" + lang;
+                            }
+                        }
+                        updatePortfolioLink();
+                        document.addEventListener('languageChanged', function() {
+                            updatePortfolioLink();
+                        });
+                    });
+                </script>
             </div>
             <div class="hero-stats">
                 <div class="stat-item">

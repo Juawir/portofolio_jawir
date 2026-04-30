@@ -34,6 +34,7 @@ return [
         'university'=> 'Universitas Muhammadiyah Sidoarjo',
         'degree'    => 'S1 Teknik Informatika',
         'photo'     => 'images/saya.jpeg', // relative to public/
+        'cv'        => 'docs/cv_steven_gerrard.pdf', // Letakkan file PDF Anda di folder public/docs/
 
         // Deskripsi tentang diri Anda (per bahasa)
         'about' => [
@@ -298,9 +299,9 @@ return [
             ],
             'badge_type' => 'work',
             'description' => [
-                'id' => 'Saya menyelesaikan program magang di Badan Pusat Statistik (BPS) Sidoarjo, di mana saya bekerja pada website sistem informasi desa "Desa Cantik" untuk Kabupaten Sidoarjo sebagai Front-End Developer. Bertanggung jawab dalam mengembangkan antarmuka pengguna yang intuitif dan responsif.',
-                'en' => 'I completed an internship at the Central Bureau of Statistics (BPS) Sidoarjo, where I worked on the "Desa Cantik" village information system website as a Front-End Developer. Responsible for developing intuitive and responsive user interfaces.',
-                'ar' => 'أكملت تدريبًا في مكتب الإحصاءات المركزي سيدوارجو، حيث عملت على موقع نظام معلومات القرية كمطور واجهة أمامية. مسؤول عن تطوير واجهات مستخدم سهلة الاستخدام ومتجاوبة.',
+                'id' => 'Saya menyelesaikan permintaaan update sistem informasi kampus menjadi berbasis wordpress.',
+                'en' => 'I completed the request to update the campus information system to be WordPress-based.',
+                'ar' => 'لقد أنجزت طلب تحديث نظام معلومات الحرم الجامعي ليصبح مبنيًا على ووردبريس.',
             ],
             'skills'   => ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'UI/UX'],
         ],
