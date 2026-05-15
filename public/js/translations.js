@@ -13,7 +13,7 @@ const translations = {
     'hero.greeting':     { id: 'Halo, saya',              en: 'Hello, I\'m',              ar: 'مرحبًا، أنا' },
     'hero.btn_projects': { id: 'Lihat Proyek',             en: 'View Projects',            ar: 'عرض المشاريع' },
     'hero.btn_contact':  { id: 'Hubungi Saya',             en: 'Contact Me',               ar: 'اتصل بي' },
-    'hero.btn_portfolio':{ id: '<i class="fas fa-file-pdf"></i> Unduh Portfolio', en: '<i class="fas fa-file-pdf"></i> Download Portfolio', ar: '<i class="fas fa-file-pdf"></i> تحميل المحفظة' },
+    'hero.btn_portfolio':{ id: 'Unduh Portfolio', en: 'Download Portfolio', ar: 'تحميل المحفظة' },
     'hero.stat_projects':{ id: 'Proyek',                   en: 'Projects',                 ar: 'مشاريع' },
     'hero.stat_exp':     { id: 'Pengalaman',               en: 'Experience',               ar: 'خبرات' },
     'hero.stat_skills':  { id: 'Skills',                   en: 'Skills',                   ar: 'مهارات' },
